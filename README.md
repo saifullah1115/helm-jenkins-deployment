@@ -12,10 +12,10 @@ Strict Crumb Issuer
 
 -- jenkins regcred secret
 kubectl create secret docker-registry regcred -n jenkins \
-    --docker-server=https://internal-registry.tkg.mobilink.net.pk \
+    --docker-server=**** \
     --docker-username=service-acc-jenkins-wos2 \
-    --docker-password=Jenkins@123 \
-    --docker-email=arcana.isb@arcanainfo.com
+    --docker-password=**** \
+    --docker-email=****
 
 -- to upgrade jenkins
 helm repo update
@@ -32,4 +32,3 @@ helm list --all-namespaces
 helm uninstall jenkins -n jenkins
 
 
-> Powered & developed by [ArcanaInfo](https://www.arcanainfo.com/)
