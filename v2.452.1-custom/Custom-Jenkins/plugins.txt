@@ -1,0 +1,12 @@
+kubernetes:4245.vf5b_83f1fee6e
+kubernetes-cli:1.12.1
+workflow-aggregator:596.v8c21c963d92d
+git:5.2.2
+configuration-as-code:1810.v9b_c30a_249a_4c
+gitlab-plugin:1.8.1
+gitlab-branch-source:704.vc7f1202d7e14
+role-strategy:727.vd344b_eec783d
+pipeline-stage-view:2.34
+thinBackup:2.0
+strict-crumb-issuer:2.1.1
+javax-mail-api:1.6.2-10
